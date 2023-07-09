@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: "Poppins";
+    min-height: 100vh;
+    background: lightblue;
+}
+
+
+header menu {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+
+header menu button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar {
+    position: fixed;
+    background: lightblue;
+    height: 100vh;
+    width: 15em;
+
+    transition: all 1s ease;
+    transform: translateX(-100%);
+    padding: 1rem 2rem;
+    z-index: 1;
+}
+
+
+#navbar ul {
+    margin: 2rem 0;
+    list-style: none;
+}
+
+
+#navbar ul li {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+
+
+#navbar ul li a {
+    color: white;
+}
+
+
+#navbar button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+
+.sidenav{
+    background-color:#111;
+    height:100%;
+    left:0;
+    overflow-x:hidden;
+    padding-top:60px;
+    position:fixed;
+    top:0;
+    transition:.5s;
+    width:0;
+    z-index:1;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 1.2rem;
+    font-size: 32px;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+.parrafos {
+    color: white;
+    text-align: justify;
+    padding: 1rem;
+    width: 94%;
+    display: block;
+    margin: 0 auto;
+    font-size: large;
+}
+
+
+.botones {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+    padding: .8rem;
+    display: block;
+    margin: 1rem;
+    background: lightskyblue;
+    font-size: .9rem;
+    border: none;
+    box-shadow: 0px 4px 10px 0px black;
+}
+
+
+img {
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    height: 50%;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+footer {
+    color: #ffffff;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer .derechos {
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+footer .redes {
+    display: flex;
+    gap: 0.5rem;
+    justify-content:center;
+    
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+.footer-p {
+    font-size: 18px;
+}
+
