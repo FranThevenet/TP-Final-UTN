@@ -33,7 +33,7 @@ header menu button {
 
 a {
   text-decoration: none;
-  color: white;
+  color: blue;
 }
 
 
@@ -63,7 +63,7 @@ a {
 
 
 #navbar ul li a {
-  color: white;
+  color: blue;
 }
 
 
@@ -196,7 +196,7 @@ input:focus~.barra::before {
 
 
 footer {
-  color: #ffffff;
+  color: blue;
   height: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

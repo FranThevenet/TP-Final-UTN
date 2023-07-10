@@ -29,7 +29,7 @@ header menu button {
 
 a {
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 
 
@@ -59,7 +59,7 @@ a {
 
 
 #navbar ul li a {
-    color: white;
+    color: blue;
 }
 
 
@@ -86,7 +86,7 @@ a {
 
 h1 {
     text-align: center;
-    color: white;
+    color: blue;
     padding: 1.2rem;
     font-size: 32px;
 }
@@ -94,7 +94,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: white;
+    color: blue;
     padding: 1.2rem;
     margin-top: 1rem;
 }
@@ -102,7 +102,7 @@ h2 {
 
 
 .parrafos {
-    color: white;
+    color: blue;
     text-align: justify;
     padding: 1rem;
     width: 94%;
@@ -285,7 +285,7 @@ h2 {
 
 
 footer {
-    color: #ffffff;
+    color: blue;
     height: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

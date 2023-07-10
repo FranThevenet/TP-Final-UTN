@@ -60,7 +60,7 @@ a {
 
 
 #navbar ul li a {
-    color: white;
+    color: blue;
 }
 
 
@@ -87,7 +87,7 @@ a {
 
 h1 {
     text-align: center;
-    color: white;
+    color: blue;
     padding: 1.2rem;
     font-size: 32px;
 }
@@ -95,7 +95,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: white;
+    color: blue;
     padding: 1.2rem;
 }
 
@@ -171,6 +171,11 @@ h2 {
 }
 
 
+.fotos-galeria.favorito {
+    border: 2px solid gold;
+}
+
+
 .fotos-galeria .texto-imagen {
     background-color: rgba(100, 100, 100, 0.5);
     backdrop-filter: blur(15px);
@@ -203,7 +208,7 @@ h2 {
 
 
 .info-fotos p {
-    color: white;
+    color: blue;
     font-size: x-large;
 }
 
@@ -246,7 +251,7 @@ h2 {
 
 
 footer {
-    color: #ffffff;
+    color: blue;
     height: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
